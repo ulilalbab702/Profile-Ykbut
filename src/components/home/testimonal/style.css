@@ -46,3 +46,12 @@
   background-color: #fff;
   color: #1eb2a6;
 }
+
+@media screen and (max-width: 480px) {
+  .content{
+    grid-template-columns: auto;
+  }
+  .container{
+    padding-top: 10px;
+  }
+}

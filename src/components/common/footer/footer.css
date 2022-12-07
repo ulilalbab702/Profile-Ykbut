@@ -133,3 +133,9 @@ footer .last i {
 .legal i {
   color: #1eb2a6;
 }
+
+/* @media screen and (max-width: 480px) {
+  footer {
+    width: 100%;
+  }
+} */

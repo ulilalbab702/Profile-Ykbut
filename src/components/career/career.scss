@@ -52,14 +52,13 @@ body {
   // flex-direction: column;
   // justify-content: center;
   // text-align: center;
-  padding-top: 20px;
+  padding-top: 30px;
 }
 .title{
   font-size: 45px;
   margin-bottom: 55px;
   margin-top: 30px;
 }
-
 .data_career{
   padding-bottom: 30px;
   display: flex;
@@ -79,13 +78,14 @@ body {
   align-items: center;
 }
 .logo_career{
-  width: 150px;
-  height: auto;
+  width: 100px;
+  height: 100px;
   border-radius: 100%;
+  background-color: #1eb2a6;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-right: 30px;
+  margin-right: 20px;
 }
 .name_career{
   margin-right: auto;
@@ -104,39 +104,28 @@ body {
   font-weight: 700;
 }
 .loc_career{
-  color: black;
-  font-size: 15px;
   display: flex;
-  align-items: center;
-  padding-top: 15px;
-  gap: 5px;
+  flex-direction: row;
+  gap: 10px;
 }
-.icon_loc{
-  color: #1eb2a6;
-  display: flex;
-  align-items: center; 
-}
-.q_career{
+.p_loc{
+  line-height: 14px;
   font-size: 15px;
-  color: black;
-  display: flex;
-  align-items: center;
-  padding-top: 3px;
-  gap: 5px;
+  font-weight: 600;
+  color: gray;
 }
 .req_career{
-  font-size: 15px;
-  padding-top: 5px;
+  display: flex;
+}
+.p_career{
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
 
-@media screen and (max-width: 768px){
-  .logo_career{
-    height: auto;
-  }
-  .container{
-    padding-top: 45%;
-    
+@media screen and (max-width: 480px) {
+  .card_career{
+    flex-direction: column;
   }
 }
-
-

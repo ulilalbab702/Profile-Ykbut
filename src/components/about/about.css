@@ -75,6 +75,12 @@
   font-size: 20px;
   font-weight: 500;
 }
+
+.container_grid{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
 /*----------awrapper------------*/
 @media screen and (max-width: 768px) {
   .aboutHome .container {
@@ -85,5 +91,14 @@
   }
   .awrapper {
     height: 50vh;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container_grid{
+    display: grid;
+    grid: 150px / auto auto;
+    grid-gap: 30px;
+    justify-content: space-evenly;
   }
 }
