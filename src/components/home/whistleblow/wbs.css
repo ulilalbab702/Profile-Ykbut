@@ -1,0 +1,96 @@
+.Container {
+  height: calc(100vh - 50px);
+  display: flex;
+  padding: 20px;
+}
+
+/* @media only screen and (max-width: 480px) {
+    flex-direction: column;
+  } */
+
+.Left {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+/* @media only screen and (max-width: 480px) {
+    width: 100%;
+    height: 100%;
+  } */
+
+.Title {
+  width: 65%;
+  font-size: 47px;
+  text-align: center;
+}
+/* @media only screen and (max-width: 480px) {
+    width: 100%;
+    font-size: 50px;
+  } */
+
+.Desc {
+  width: 65%;
+  font-size: 20px;
+  margin-top: 20px;
+  width: 100%;
+  font-size: 20px;
+  text-align: center;
+}
+/* @media only screen and (max-width: 480px) {
+    width: 100%;
+  } */
+
+.Info {
+  width: 60%;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* @media only screen and (max-width: 480px) {
+    width: 100%;
+    flex-direction: column;
+  } */
+
+.Button {
+  padding: 15px;
+  background-color: darkblue;
+  color: white;
+  border-radius: 10px;
+  font-weight: bold;
+  border: none;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+/* @media only screen and (max-width: 480px) {
+    margin-bottom: 20px;
+  } */
+
+.Contact {
+  display: flex;
+  flex-direction: column;
+}
+
+.Phone {
+  color: #f0667d;
+  font-weight: bold;
+}
+
+.ContactText {
+  color: gray;
+  margin-top: 5px;
+}
+
+.Right {
+  width: 40%;
+}
+/* @media only screen and (max-width: 480px) {
+    display: none;
+  }
+`; */
+
+.Image {
+  width: 100%;
+}
