@@ -68,7 +68,7 @@ button:hover {
 /*------------global-----------*/
 #heading {
   text-align: center;
-  padding: 40px 0;
+  padding-top: 50px;
 }
 #heading h3 {
   font-weight: 600;
@@ -80,6 +80,7 @@ button:hover {
   font-size: 45px;
   margin: 20px 0;
   text-transform: capitalize;
+  /* padding-bottom: 40px; */
 }
 p {
   line-height: 30px;

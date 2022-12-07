@@ -33,6 +33,7 @@
   justify-content: space-between;
   width: 100%;
   padding: 15px 20px;
+  text-align: center;
 }
 .faq h2 {
   font-weight: 500;
@@ -43,6 +44,16 @@
 .faq .accordion:hover {
   background-color: #1eb2a6;
   color: #fff;
+}
+
+@media screen and (max-width: 768px){
+  .faq button{
+    padding: 20px 60px;
+  }
+
+  .faq .container{
+    padding-top: 20px;
+  }
 }
 
 /*--------------faq-------------*/

@@ -52,7 +52,7 @@ body {
   // flex-direction: column;
   // justify-content: center;
   // text-align: center;
-  padding-top: 30px;
+  padding-top: 20px;
 }
 .title{
   font-size: 45px;
@@ -132,6 +132,10 @@ body {
 @media screen and (max-width: 768px){
   .logo_career{
     height: auto;
+  }
+  .container{
+    padding-top: 45%;
+    
   }
 }
 
