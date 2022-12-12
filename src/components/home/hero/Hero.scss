@@ -37,7 +37,7 @@
 
 @media screen and (max-width: 768px) {
   .margin {
-    height: 20px;
+    height: 40vh;
   }
   .hero {
     background-position: right;
@@ -46,5 +46,11 @@
   }
   .hero .row {
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .margin{
+    text-align: center; 
   }
 }
