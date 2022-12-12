@@ -75,6 +75,7 @@ button:hover {
   letter-spacing: 1px;
   color: #1eb2a6;
   text-transform: uppercase;
+  text-align: center;
 }
 #heading h1 {
   font-size: 45px;

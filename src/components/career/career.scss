@@ -129,14 +129,33 @@ body {
   padding-top: 5px;
 }
 
+button {
+  background-color: #1eb2a6;
+  color: #fff;
+  font-size: 10px;
+  padding: 10px 24px;
+}
+
+a{
+  color: #fff;
+}
+button:hover{
+  color: #fff;
+  background-color: rgb(2, 79, 89);
+}
+
 @media screen and (max-width: 768px){
   .logo_career{
     height: auto;
   }
   .container{
-    padding-top: 45%;
-    
+    padding-top: 35%;
   }
+
+  button{
+    margin-bottom: 150px;
+  }
+  
 }
 
 

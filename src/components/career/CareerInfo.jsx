@@ -1,10 +1,9 @@
 import React, { useState } from "react";
 import Heading from "../common/heading/Heading";
 import "./career.scss"
-import {logo_gsi, logo_mbut, logo_kamaju, logo_dpp, logo_lsp_abi} from "../../assets";
+import { logo_gsi, logo_mbut, logo_kamaju, logo_dpp, logo_lsp_abi } from "../../assets";
 import LocationOnOutlinedIcon from '@mui/icons-material/LocationOnOutlined';
 import PersonOutlineOutlinedIcon from '@mui/icons-material/PersonOutlineOutlined';
-
 
 const CareerInfo = () => {
   const [dataCareer, setDataCareer] = useState([
@@ -21,6 +20,7 @@ const CareerInfo = () => {
         " Berpengalaman minimal 2 tahun",
         " Memiliki paspor",
       ],
+      link: "https://globalservice.co.id/jobs",
     },
     {
       id: 2,
@@ -35,6 +35,7 @@ const CareerInfo = () => {
         " Berpengalaman minimal 2 tahun",
         " Memiliki paspor",
       ],
+      link: "https://globalservice.co.id/jobs",
     },
     {
       id: 3,
@@ -49,6 +50,7 @@ const CareerInfo = () => {
         " Berpengalaman minimal 2 tahun",
         " Memiliki paspor",
       ],
+      link: "https://globalservice.co.id/jobs",
     },
     {
       id: 4,
@@ -63,6 +65,7 @@ const CareerInfo = () => {
         " Berpengalaman minimal 2 tahun",
         " Memiliki paspor",
       ],
+      link: "https://globalservice.co.id/jobs",
     },
     {
       id: 5,
@@ -77,26 +80,30 @@ const CareerInfo = () => {
         " Berpengalaman minimal 2 tahun",
         " Memiliki paspor",
       ],
+      link: "https://globalservice.co.id/jobs",
     },
   ]);
 
   const renderCareer = (data, index) => {
-      return (
-        <div className="data_career" key={index}>
-          <div className="card_career" >
+    return (
+      <div className="data_career" key={index} >
+        <div className="card_career" >
             <img src={data.logo} className="logo_career" />
-            <div className="name_career">
-              <p className="job_career">{data.name}</p>
+            <div className="name_career" >
+              <p className="job_career" >{data.name}</p>
               <p className="assign_career">{data.assignment}</p>
-            <div className="req_career">{data.requirements}</div>
-            <div className="loc_career">
-              <p className="icon_loc"><LocationOnOutlinedIcon/></p> {data.location} </div>
-            <div className="q_career">
-              <p className="icon_loc"><PersonOutlineOutlinedIcon/></p> {data.personNeeded}</div>
+              <div className="req_career">{data.requirements}</div>
+              <div className="loc_career">
+                <p className="icon_loc"><LocationOnOutlinedIcon /></p> {data.location} </div>
+              <div className="q_career">
+                <p className="icon_loc"><PersonOutlineOutlinedIcon /></p> {data.personNeeded}</div>
             </div>
-          </div>
+            <button>
+              <a href={data.link} >Apply</a> 
+            </button>
         </div>
-      );
+      </div>
+    );
   };
 
   return (
